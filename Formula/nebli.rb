@@ -8,29 +8,29 @@
 class Nebli < Formula
   desc "Drone relay CLI for Nebli"
   homepage "https://nebli.ai"
-  version "0.1.143"
+  version "0.1.294"
 
   on_macos do
     on_arm do
       url "https://downloads.nebli.ai/cli/versions/v#{version}/nebli-darwin-arm64.tar.gz"
-      sha256 "8c8e4b2b45a71f4ac4cde8f2e2cf5ae508fe2628db05eee299b91f7017ff8c88"
+      sha256 "32436b701167dd50231f6b923a28c921fa5da231e00df6799819bbf506c84525"
     end
 
     on_intel do
       url "https://downloads.nebli.ai/cli/versions/v#{version}/nebli-darwin-amd64.tar.gz"
-      sha256 "cd289d9043c909c1b7020558e7c25a516a1500e8247a4ef6f61f4ad586503d6c"
+      sha256 "2cf636427eac07de955a82c085c5754c90cc9fa489f7303e50af947821eb4efa"
     end
   end
 
   on_linux do
     on_intel do
       url "https://downloads.nebli.ai/cli/versions/v#{version}/nebli-linux-amd64.tar.gz"
-      sha256 "2ea617210476633df6d9ccd42b92446c67141b1a942478a3cab798266c501175"
+      sha256 "8c6c0c9f143b110def9c54c5aad60b4a07706a14ca545c3aadd2fea34e79feff"
     end
 
     on_arm do
       url "https://downloads.nebli.ai/cli/versions/v#{version}/nebli-linux-arm64.tar.gz"
-      sha256 "c87f7451cd6a599dd9a002276c04366bba1b7904c3ebba9299bc78101fdd2d45"
+      sha256 "5d497619ab1dd9c7d62552bfba0ea693f726e449a99def41dc1ebb36422066a4"
     end
   end
 
